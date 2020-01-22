@@ -1,24 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import logo from './assets/logo.png';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <img src={logo} alt="ET" width="200"/>
+      <div className="content">
+        <p>Ofereça <strong>aliens</strong> para terráqueos e encontre <strong>naves</strong> para sua tropa</p>
+
+        <form>
+          <label htmlFor="email">E-MAIL *</label>
+          <input 
+            type="type" 
+            name="Enviar" 
+            id="email" 
+            placeholder="Vem que vamo"
+          />
+          <button>Entrar</button>
+        </form>
+      </div>
     </div>
   );
 }
