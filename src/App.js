@@ -7,7 +7,7 @@ function App() {
     <div className="container">
       <img src={logo} alt="ET" width="200"/>
       <div className="content">
-        <p>Ofereça <strong>aliens</strong> para terráqueos e encontre <strong>naves</strong> para sua tropa</p>
+        <p>Ofereça <strong>naves</strong> para sua tropa e encontre <strong>alies</strong> para em sua jornada</p>
 
         <form>
           <label htmlFor="email">E-MAIL *</label>
@@ -15,9 +15,9 @@ function App() {
             type="type" 
             name="Enviar" 
             id="email" 
-            placeholder="Vem que vamo"
+            placeholder="Partiu dominar o espaço"
           />
-          <button>Entrar</button>
+          <button className="btn">Entrar</button>
         </form>
       </div>
     </div>
